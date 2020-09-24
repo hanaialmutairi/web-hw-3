@@ -1,0 +1,37 @@
+html, body {
+    height: 100%;
+  }
+  
+  .full-height {
+    height: 100%;
+  }
+  /* لون خلفية الفلكس والتعديلات عليها */
+  .box{
+      background-color: blanchedalmond;
+    display: flex;
+      justify-content: center;
+      justify-content: space-around;
+  }
+  /* خلفية الصفحه كلها */
+  body{
+      background-image: url("./coffee.jpg");
+}
+/* تعديلات الفلكس الاول  */
+.style1{
+    background-color: white;
+    height: 110px;
+    width: 110px;
+   color: grey;
+   padding-bottom: 5px;
+   font-size: 15px;
+    margin-right: 8px;
+    margin-bottom: 8px
+}
+/* تعديلات الفلكس الثاني */
+.style2{
+    font-style: italic;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+  
