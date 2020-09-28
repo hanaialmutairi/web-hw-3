@@ -12,10 +12,6 @@ html, body {
       justify-content: center;
       justify-content: space-around;
   }
-  /* خلفية الصفحه كلها */
-  body{
-      background-image: url("./coffee.jpg");
-}
 /* تعديلات الفلكس الاول  */
 .style1{
     background-color: white;
@@ -34,4 +30,16 @@ html, body {
     display: flex;
     justify-content: center;
 }
+/* تعديلات الفلكس الثالث */
+  .style3{
+    display: flex;
+    justify-content: space-around;
+    font-style: italic;
+    font-size: 15px;
+    color: blanchedalmond;
+  }
+  /* خلفية الصفحه كلها */
+  body{
+    background-image: url(./image/back.cofe2.jpg) 
   
+}
